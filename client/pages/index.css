@@ -1,0 +1,42 @@
+.fruites-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.fruite-img img {
+    width: 350px;
+}
+
+.fruite-details {
+    text-align: center;
+    padding: 10px;
+}
+
+.fruite-details button {
+    padding: 10px;
+    justify-content: center;
+    background-color: #d64161;
+    border: none;
+    color: white;
+}
+
+/* hr {
+    height: 150px;
+
+    width: 90%;
+
+    margin-top: 0;
+
+    box-shadow: 0 20px 20px -20px #333;
+    margin: auto 10px;
+
+
+} */
+
+footer h4 {
+    background-color: #eaeaea;
+    padding: 10px 30px;
+    text-align: center;
+}

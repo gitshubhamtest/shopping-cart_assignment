@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sabkabazaar.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery Available.">
+    <meta name="keywords"
+        content="Sabkabazaar.in, Sabkabazaar, Online Shopping, online shopping india, india shopping online, Sabkabazaar india, buy online, buy mobiles online, buy books online, buy movie dvd's online, kindle, kindle fire hd, kindle e-readers, ebooks, computers, laptop, toys, trimmers, watches, fashion jewellery, home, kitchen, small appliances, beauty, Sports, Fitness & Outdoors">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../../styles/css/style.css">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="">
+            <img src="../../../static/images/logo.png" class="logo" alt="Sabka Bazaar">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../product/products.html">Products</a></li>
+            </ul>
+        </nav>
+
+        <div class="right-nav">
+            <nav>
+                <ul>
+                    <li><a href="../login/login.html">Sign In</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </nav>
+            <button class="header__cart" type="button">
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+                <span>1 Item</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="registration-section">
+        <form onsubmit=" validateForm(event)" name="myForm">
+            <div class="main-form">
+                <div class="form-1">
+                    <h1>Signup</h1>
+                    <h4>we do not share your personal details with anyone.</h4>
+                </div>
+                <div class="form-2">
+                    <div class="form-layout" id="fname">
+                        <input type="text" name="firstname" autocomplete="off"><b><span class="formerror"></span></b>
+                        <label for="firstname" class="label-name">
+                            <span class="contant-name">First Name</span>
+                        </label>
+                    </div>
+                    <div class="form-layout" id="lname">
+                        <input type="text" name="lastname" autocomplete="off"><b><span class="formerror"></span></b>
+                        <label for="lastname" class="label-name">
+                            <span class="contant-name">Last Name</span>
+                        </label>
+                    </div>
+                    <div class="form-layout" id="email">
+                        <input type="text" name="Email" autocomplete="off"><b><span class="formerror"></span></b>
+                        <label for="Email" class="label-name">
+                            <span class="contant-name">Email</span>
+                        </label>
+                    </div>
+                    <div class="form-layout" id="password">
+                        <input type="password" name="Password" autocomplete="off"><b><span class="formerror"></span></b>
+                        <label for="Password" class="label-name">
+                            <span class="contant-name">Password</span>
+                        </label>
+                    </div>
+                    <div class="form-layout" id="conformPass">
+                        <input type="password" name="ConformPass" autocomplete="off"><b><span
+                                class="formerror"></span></b>
+                        <label for="ConformPass" class="label-name">
+                            <span class="contant-name">Conform Password</span>
+                        </label>
+                    </div>
+                    <div class="form-layout">
+                        <button type="submit" value="Submit">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        Copyright 2022-2023 Sabka Bazaar Grocery Supplies Pvt Ltd
+    </footer>
+
+    <script src="./register.js"></script>
+
+</body>
+
+</html>
